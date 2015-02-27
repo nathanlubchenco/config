@@ -1,0 +1,13 @@
+setw -g mode-keys vi
+setw -g aggressive-resize on
+
+bind-key j select-pane -D
+bind-key k select-pane -U
+bind-key l select-pane -R
+bind-key h select-pane -L
+bind-key C-a last-window
+
+set-option -g history-limit 50000
+set-option -g pane-active-border-fg magenta
+set-option -g status-bg magenta
+
