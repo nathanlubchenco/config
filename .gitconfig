@@ -1,0 +1,9 @@
+[color]
+	ui = auto
+        diff = auto
+        status = auto
+[user]
+	name = "Nathan Lubchenco"
+	email = nathan@simpleenergy.com
+[push]
+        default = current
